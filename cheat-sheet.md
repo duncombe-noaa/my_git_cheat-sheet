@@ -8,6 +8,11 @@ short hand: `git log --oneline <path>`
 
 `git log  --graph <path>`
 
+## Cheatsheets and Tutorials
+
+- [Atlassian tutorials](https://www.atlassian.com/git/tutorials/)
+- [NDP Interactive Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
+
 ## Powershell Commands
 
 |Powershell command| Unix equivalent|

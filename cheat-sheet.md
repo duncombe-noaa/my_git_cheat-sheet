@@ -14,6 +14,7 @@ short hand: `git log --oneline <path>`
 - [NDP Interactive Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
 - [How to escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [Think like a git](http://think-like-a-git.net/)
+- [git ready](http://gitready.com/)
 
 ## Powershell Commands
 

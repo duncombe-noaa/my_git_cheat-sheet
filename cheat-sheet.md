@@ -12,6 +12,7 @@ short hand: `git log --oneline <path>`
 
 - [Atlassian tutorials](https://www.atlassian.com/git/tutorials/)
 - [NDP Interactive Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
+- [Git Fix Um](http://sethrobertson.github.io/GitFixUm/fixup.html)
 - [How to escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [Think like a git](http://think-like-a-git.net/)
 - [git ready](http://gitready.com/)

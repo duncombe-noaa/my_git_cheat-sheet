@@ -1,0 +1,534 @@
+%% LyX 1.5.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british]{article}
+\batchmode
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\pagestyle{empty}
+\usepackage{array}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{longtable}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+{\settowidth{\labelwidth}{#1}
+ \setlength{\leftmargin}{\labelwidth}
+ \addtolength{\leftmargin}{\labelsep}
+ \renewcommand{\makelabel}[1]{##1\hfil}}}
+{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+% \renewcommand{\rmdefault}{sfdefault}
+\usepackage{pslatex}
+
+\usepackage{rcs}
+\RCS $Date: 2011/04/05 23:19:03 $
+\RCS $Revision: 1.34 $
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+\noindent{} Version \RCSRevision{}; \RCSDate{}
+
+
+\section*{\LaTeX\  and \LyX{} Tips }
+
+\texttt{}\begin{tabular}{l>{\raggedright}p{4in}}
+\multicolumn{2}{l}{\textbf{Administrative}}\tabularnewline
+\texttt{texhash} & update \LaTeX\ database\tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{\textbf{\LyX{} Shortcuts}}\tabularnewline
+\texttt{{[}alt-C]{[}space] } & default character \tabularnewline
+\texttt{{[}alt-P]{*}2} & unnumbered section \tabularnewline
+\texttt{{[}alt-P]2} & numbered section\tabularnewline
+\texttt{{[}alt-P]i } & item\tabularnewline
+\texttt{{[}alt-P]l} & list\tabularnewline
+\texttt{{[}alt-P]e} & enumerate\tabularnewline
+\texttt{{[}alt-C]{[}right]} & Capitalize\tabularnewline
+\texttt{{[}alt-C]{[}down]} & capitalize\tabularnewline
+\texttt{{[}alt-C]{[}up]} & CAPITALIZE\tabularnewline
+\texttt{{[}alt-C]p} & typewriter font\tabularnewline
+\texttt{{[}alt-S]5} & font-size normal, increase numbers for larger font\tabularnewline
+\texttt{{[}alt-S]n} & font-size normal\tabularnewline
+\texttt{{[}F7]} & spellchecker\tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{\textbf{\LaTeX\ Commands}}\tabularnewline
+\texttt{\textbackslash{}discretionary\{\%1\}\{\%2\}\{\%3\}} & \parbox[t]{4in}{``Hyphenation'' at line breaks, before\%3after, before\%1\\
+\%2after\\
+}\tabularnewline
+\texttt{\textbackslash{}slash\{\}} & Breakable slash, short cut for  \texttt{\textbackslash{}discretionary\{/\}\{\}\{/\}}\tabularnewline
+\texttt{\textbackslash{}filbreak} & prevent an item in a (for eg.) bibliography list breaking across page
+breaks\tabularnewline
+\texttt{\textbackslash{}jobname} & the current filename \tabularnewline
+\texttt{\textbackslash{}filename@ext} & the current filename \tabularnewline
+ & \tabularnewline
+\texttt{\textbackslash{}ldots } & ellipsis \ldots \tabularnewline
+\verb, -- , & en-dash -- \tabularnewline
+\verb, --- , & em-dash --- \tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{In Math Mode (in \texttt{\$math equation\$}):}\tabularnewline
+\texttt{\textbackslash{}; } & a thick space\tabularnewline
+\texttt{\textbackslash{}: } & a medium space\tabularnewline
+\texttt{\textbackslash{}, } & a thin space\tabularnewline
+\texttt{\textbackslash{}! } & a negative thin space\tabularnewline
+\texttt{\textbackslash{}times} & $\times$\tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+\begin{flushleft}
+\begin{tabular}{ll}
+\textbf{\textsc{Bib}\TeX{}} & \tabularnewline
+\texttt{\textbackslash{}usepackage{[}square,sort]\{natbib\} } & in preamble\tabularnewline
+\texttt{\textbackslash{}renewcommand\textbackslash{}refname\{References\}} & in preamble to change heading\tabularnewline
+\texttt{\textbackslash{}bibliographystyle\{ametsoc.bst\}}  & declare the \textsc{Bib}\TeX{} style file to use\tabularnewline
+\texttt{\textbackslash{}bibliography\{abs,references\}\{\} } & in document where the bibliography is to appear\tabularnewline
+\end{tabular}
+\par\end{flushleft}
+
+\newpage
+
+
+\section*{\texttt{xdvi} Commands}
+
+\begin{tabular}{ll}
+\texttt{R} & refresh\tabularnewline
+\textbf{n}\texttt{s} & scale\tabularnewline
+\texttt{g}, \textbf{n}\texttt{g} & end, move to page \textbf{n}\tabularnewline
+\texttt{n}, \textbf{n}\texttt{n} & next page, \textbf{n}th next page\tabularnewline
+\texttt{p}, \textbf{n}\texttt{p} & previous page, \textbf{n}th prev. page\tabularnewline
+\texttt{k} & toggle keep position\tabularnewline
+\texttt{D} & toggle grid\tabularnewline
+\end{tabular}
+
+
+\section*{\texttt{ssh} Commands}
+
+\begin{tabular}{ll}
+\texttt{\textasciitilde{}?} & help\tabularnewline
+\texttt{\textasciitilde{}\#} & display\tabularnewline
+\end{tabular}
+
+\noindent{}\begin{tabular}{cc}
+\texttt{ssh -X} & force X connection\tabularnewline
+\end{tabular}
+
+
+\section*{\texttt{vi} Commands}
+
+\begin{tabular}{ll}
+\texttt{:com <name> {[}-range] {[}-nargs]} & create macro command\tabularnewline
+\texttt{|} & separates vim commands on same line\tabularnewline
+\texttt{:sp} & split window\tabularnewline
+\texttt{{[}\textasciicircum{}w]{[}down]}, \texttt{{[}\textasciicircum{}w]{[}up]},
+\texttt{{[}\textasciicircum{}w]w} & move around windows\tabularnewline
+\texttt{:\char`\"{}} & comment\tabularnewline
+\texttt{{[}\textasciicircum{}f}], \texttt{{[}\textasciicircum{}b]} & forward, back screen\tabularnewline
+\texttt{:g/\textasciicircum{}/norm J} & join every second line \tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+
+\subsubsection*{vim split windows commands}
+
+\noindent \texttt{}\begin{tabular}{|l|l|}
+\hline 
+\noindent \texttt{\textasciicircum{}w\textasciicircum{}w } & \noindent change to next \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}w\textasciicircum{}n } & \noindent new empty window \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}wq } & \noindent quit window \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}wc } & \noindent close window \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}wx } & \noindent exchange windows\tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}w= } & \noindent equalize \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}w+ } & \noindent increase \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}w- } & \noindent decrease \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}w\_ } & \noindent maximise \tabularnewline
+\hline 
+\noindent \texttt{\textasciicircum{}wo} & \noindent  make only window\tabularnewline
+\hline
+\end{tabular}
+
+\newpage
+\section*{\texttt{bash} Scripting and \noun{Unix} Commands}
+
+
+% \begin{tabular}{>{\raggedright}p{2in}p{4in}}
+\begin{longtable}{>{\raggedright}p{2in}p{4in}}
+\texttt{man} command \texttt{| col -b } & Print plain \noun{ascii} \texttt{man} page (\texttt{col} filters \texttt{ANSI}
+escapes)\tabularnewline
+\texttt{grep -B3 -C3 } & Find with context before and after\tabularnewline
+\texttt{mktemp} & Create unique temporary file\tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{\textbf{Customize Keyboard}}\tabularnewline
+\texttt{dumpkeys > newkeyfile} & Dump current keymap to a file \tabularnewline
+\texttt{loadkeys newkeyfile} & Load new keymap from a file \tabularnewline
+\texttt{keycode 29 = Caps\_Lock}\\ \texttt{keycode 58 = Control} &
+	Swap capslock and control \tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{To allow <ctrl-alt-end> to shutdown}\tabularnewline
+\multicolumn{2}{l}{\texttt{control alt keycode 79 = KeyboardSignal}} \\                            
+\multicolumn{2}{l}{\texttt{control alt keycode 107 = KeyboardSignal}} \\
+\multicolumn{2}{l}{and add \texttt{kb::kbrequest:/sbin/shutdown -h now} to  inittab} 
+ \tabularnewline
+ & \tabularnewline
+\texttt{showkey} &	to display the codes of the key pressed \tabularnewline
+\texttt{xkeycap} &	to set up modmap graphically \tabularnewline
+
+NB Read the keyboard and console howto!  & \tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{\textbf{Command-Line Keystrokes}}\tabularnewline
+\texttt{\textasciicircum{}u} & delete line\tabularnewline
+\texttt{\textasciicircum{}c} & cancel command\tabularnewline
+\texttt{\textasciicircum{}d}, \texttt{<esc>-d} & delete character, word\tabularnewline
+\texttt{\textasciicircum{}w} & delete word backwards\tabularnewline
+\texttt{\textasciicircum{}v} & quote character\tabularnewline
+\texttt{\textasciicircum{}t}, \texttt{alt-t} & transpose chars, words\tabularnewline
+\texttt{\textasciicircum{}f}, \texttt{alt-f} & forward\tabularnewline
+\texttt{\textasciicircum{}a} & start of line\tabularnewline
+\texttt{\textasciicircum{}e} & end of line\tabularnewline
+ & \tabularnewline
+\multicolumn{2}{l}{\textbf{History Substitution}}\tabularnewline
+\texttt{!!} & repeat previous command \tabularnewline
+\texttt{!n:k} & insert the \verb=k=-th word of command \verb=n= \tabularnewline
+\texttt{!-n:k} & insert the \verb=k=-th word of \verb=n=-th previous command \tabularnewline
+\texttt{!-n:*} & insert all the words but the \verb=0=-th of \verb=n=-th previous command \tabularnewline
+ & \tabularnewline 
+%
+\textbf{System Administration} & \tabularnewline
+\texttt{service}, \texttt{/etc/init.d/{*}d} & start, stop and status of daemons\tabularnewline
+\texttt{chkconfig} & manipulate run levels\tabularnewline
+\texttt{hwclock -r}, \texttt{-a}, \texttt{-w}, \texttt{-s} & read, adjust, write to, set from the hardware clock\tabularnewline
+\texttt{procmail}, \texttt{fetchmail}, \texttt{sendmail} & mail processing\tabularnewline
+\texttt{procinfo}, \texttt{top}, \texttt{uptime}, \texttt{w}, \texttt{who},
+\texttt{whoami} & information about the system\tabularnewline
+\texttt{lsof}, \texttt{fuser} & information about open processes\tabularnewline
+\texttt{dmidecode} & hardware information \tabularnewline
+\texttt{siga} & System Information GAtherer --- SuSE system info
+tool \tabularnewline
+\multicolumn{2}{l}{See \url{http://www.cpqlinux.com/hostname.html} about fixing the hostname}
+\tabularnewline
+
+ & \tabularnewline
+%
+\pagebreak[4]\textbf{Monitoring} & \tabularnewline
+\texttt{netwatch}, \texttt{iptraf}, \texttt{iftop} & \tabularnewline
+\texttt{mii-tool} & interface information\tabularnewline
+\texttt{ntop:3000} & \tabularnewline
+ & \tabularnewline
+
+\pagebreak[3]\multicolumn{2}{l}{\textbf{Turning off the annoying beep}}\tabularnewline
+\texttt{set bell-style none} & \parbox[t]{4in}{in \texttt{\textasciitilde{}/.inputrc,} \texttt{\textasciitilde{}/.profile,}
+or \texttt{\textasciitilde{}/.bash-profile}.\\
+Does not work in \texttt{.bashrc}}\tabularnewline
+\texttt{set nobeep=1} & in \texttt{csh}\tabularnewline
+\texttt{xset b off} & in X-window\tabularnewline
+\texttt{{}``Settings$\rightarrow$Bell$\rightarrow$None''} &  in \texttt{konsole} \tabularnewline
+ & \tabularnewline
+\textbf{Other useful stuff} & \tabularnewline
+\texttt{x-friend}, \texttt{google-desktop} & desktop search\tabularnewline
+ & \tabularnewline
+ & \tabularnewline
+% \end{tabular}
+\end{longtable}
+
+Some thoughts to add: to render a man page to plain ascii use \texttt{man man |
+col -b}
+
+\newpage
+
+
+\section*{GMT Hints}
+
+\texttt{pstext} input: (\emph{x}, \emph{y}, \emph{size}, \emph{angle},
+\emph{fontno}, \emph{justify}, \emph{text})
+
+\noindent{}\texttt{convert -density 150 -page A4 filename.ps filename.png}
+
+\noindent{}\texttt{gmtset WANT\_EURO\_FONT true} to get europeaen
+character sets
+
+\begin{tabular}{cc}
+\multicolumn{2}{c}{}\tabularnewline
+\multicolumn{2}{c}{Character Table}\tabularnewline
+\multicolumn{2}{c}{}\tabularnewline
+\textdegree{}  & \textbackslash{}217\tabularnewline
+$\sigma$ & \textbackslash{}163\tabularnewline
+$\Theta$ & \textbackslash{}161\tabularnewline
+ü & \textbackslash{}370\tabularnewline
+$\Delta$ & \textbackslash{}104\tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+\begin{tabular}{cc}
+\texttt{@\textasciitilde{}} & to toggle symbol font\tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+
+\section*{\texttt{wget} Options}
+
+\begin{tabular}{ll}
+\texttt{-p} & everything needed\tabularnewline
+\texttt{-nH} & not under host directory\tabularnewline
+\texttt{-{}-cut-dirs=n} & ignore leading directory tree\tabularnewline
+\texttt{-r } & recursive\tabularnewline
+\texttt{-N} & timestamping\tabularnewline
+\texttt{-np} & no parent\tabularnewline
+\texttt{-nv} & nonverbose\tabularnewline
+\texttt{-Q} & quota\tabularnewline
+ & \tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+
+\section*{\texttt{rsync} Options}
+
+\texttt{rsync {[}options] fromdir host:destdir}
+
+\begin{tabular}{ll}
+ & \tabularnewline
+\texttt{-r} & recursive\tabularnewline
+\texttt{-t} & copy timestamps too\tabularnewline
+\texttt{-u } & update newer only\tabularnewline
+\texttt{-n} & test, don't do it\tabularnewline
+\texttt{-v} & verbose\tabularnewline
+\end{tabular}
+
+\clearpage
+
+
+\section*{Manipulating \texttt{PostScript} Documents}
+
+
+\begin{enumerate}
+\item StarOffice and OpenOffice
+\begin{enumerate} % {{{
+\item Creating a presentation from StarOffice
+
+\begin{enumerate} % {{{
+\item print as a .ps, using the trim option
+\item Rotate using \texttt{}~\\
+\texttt{pstops -w0 -h0 1:0R\textbackslash{}(0in,8.27in\textbackslash{})
+psfile > rotfile}
+\item \texttt{pstopdf -g7930x5950 rotfile pdffile}
+\end{enumerate} % }}}
+Now it's in a script \texttt{rotate.zsh}
+
+\item Preparing figures for OpenOffice
+
+	OpenOffice is very bad at eps figures. Turn them into JPEGs. Matlab
+JPEGs are very bad, print them as EPS and turn them into JPEGs with
+\texttt{gimp}. \texttt{gmt} does not make JPEGs, make eps figures and use
+\texttt{gimp}. 
+
+
+\end{enumerate} % }}}
+
+\item Changing from EPS to PS
+
+
+Use epsffit \\
+A4 595x842
+
+A5 421x595
+
+A6 297x421
+
+A7 210x297
+
+Using pstops
+
+\texttt{pstops '2:0L@.65(21cm,0)+1L@.65(21cm,14.85)' filename}
+
+\item Converting to Postscript
+
+
+\texttt{convert -density {[}density] fromfile.jpg tofile.ps }
+
+\texttt{density} here refers to number of pixels across? (see ImageMagick
+help pages)
+
+\texttt{convert -density 150 -units pixelsperinch} seems to work.
+
+\item Concatenating Postscript documents and creating a pdf
+
+
+\texttt{gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=}\texttt{\textit{output-file-name
+input-file1 }}\texttt{{[} }\texttt{\textit{input-file2 ...}}\texttt{ ]}~\\
+Note that the \texttt{\textit{input-file{*}}} can also be pdf files,
+and ps and pdf documents can be mixed in the arguments\texttt{.}
+
+\item Converting pdf documents to postscript: try using gs with -sDEVICE=pswrite.
+
+\item Reluctant documents
+
+\begin{enumerate}
+\item You might be able to print reluctant postscript files by converting
+them using \texttt{}~\\
+\texttt{ps2ps {[}-dLanguageLevel=1] }\texttt{\textit{fromfile tofile}} 
+\item Postscript files that are very large can turn into fairly small pdfs if you use \texttt{ps2pdf}.
+\item Huge files that are slow to display (render) might be able to be flattened
+with \texttt{gimp}. For existing PDF documents that might be very
+slow to render some pages (possibly with a huge unflattened figure
+on them): 
+
+
+split up the document with \texttt{gs -dFirstPage=n -dLastPage=m}
+\\
+\texttt{gimp} the offending pages, saving as postscript\\
+join the document back together with \texttt{gs} (see concatenating
+above)
+
+
+\end{enumerate}
+
+\item Badly adjusted page offsets
+
+\begin{enumerate}
+\item For source from a \LaTeX\ document: try \texttt{dvips -t letter -f
+<dvifile>}
+\item Look for the \texttt{align.ps} file in the ghostscript package; there
+are instructions in there for adjusting the margins using \texttt{gs}.
+Create a \texttt{margin.ps} file containing
+
+
+{\tt \%\% $<<$ /.HWMargins [ml mb mr mt] /Margins [x y] $>>$ setpagedevice \\
+\%\%   ml = L * 72, mb = B * 72, mr = R * 72, mt = T * 72, \\
+\%\%   x = (1 - H) * 720.0, y = (V - 1) * 720.0 \\
+$<<$ /.HWMargins [0 0 0 0] /Margins [-180 -360] $>>$ setpagedevice} 
+
+with the appropriate margins then add the \texttt{margin.ps} file
+to the list of input files. 
+
+\item Consult some of these for the problems of A4 versus Letter size:
+\begin{itemize}
+\item \url{http://amath.colorado.edu/documentation/LaTeX/reference/faq/a4.html}
+\item \url{http://dam.mellis.org/2003/12/a4_vs_letter/}
+\item \url{http://mintaka.sdsu.edu/GF/bibliog/latex/LaTeXtoPDF.html}
+\end{itemize}
+
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{StarOffice Options}
+
+\begin{tabular}{ll}
+\texttt{-minimized}  & keep startup bitmap minimized\tabularnewline
+\texttt{-help/-h/-?} &  show the help message and exit\tabularnewline
+\texttt{-writer} &  create new text document\tabularnewline
+\texttt{-calc } & create new spreadsheet document\tabularnewline
+\texttt{-draw } & create new drawing\tabularnewline
+\texttt{-impress } & create new presentation\tabularnewline
+\texttt{-math} &  create new formula\tabularnewline
+\texttt{-global } & create new global document\tabularnewline
+\texttt{-web} &  create new HTML document\tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+
+\section*{X-server Workarounds {\normalsize }\protect \\
+\textmd{\normalsize (Cures for some of the insanity in KDE, gnome,
+StarOffice and friends)}}
+
+\begin{tabular}{ll}
+\texttt{ssh -X} & \tabularnewline
+\texttt{konsolekalendar -{}-help} & \tabularnewline
+\texttt{soffice -help/-h/-?}  & don't try \texttt{-{}-{[}option]} !\tabularnewline
+\texttt{soffice -minimized } & no splash screen\tabularnewline
+ & \tabularnewline
+\end{tabular}
+
+\clearpage
+
+
+\section*{Recording a CD}
+
+{[} Obsolete Comment: Star has a Creative CDRW. Speeds are 4,2,24
+(writable, rewritable, read). NOTE: Drive does not like fixating in
+dummy mode. The SCSI emulator driver is susceptible to locking up
+the CD on this configuration, requiring a power cycle reboot from
+time to time. ]
+
+
+\subsubsection*{Modules required}
+
+sg, sr\_mod, loop
+
+
+\subsubsection*{Blank a rewritable cd }
+
+\begin{itemize}
+\item \texttt{cdrecord $-$v blank=fast dev=0,0}
+\end{itemize}
+Can blank and burn in the same command.
+
+
+\subsubsection*{Make a filesystem}
+
+\begin{itemize}
+\item \texttt{\# For an ext2 filesystem}
+\item \texttt{dd if=/dev/zero of=cdimage; mke2fs cdimage; mount $-$o loop
+cdimage /mnt; \textbackslash{}}~\\
+\texttt{cp $-$a dir /mnt}
+\item \texttt{\# For an iso9660 filesystem}
+\item \texttt{mkisofs $-$v $-$R $-$o cdimage dir}
+\item \texttt{\# Burn it}
+\item \texttt{cdrecord $-$v speed=2 dev=0,0 cdimage}
+\end{itemize}
+Use \texttt{mkhybrid} for a filesystem which can be read by a Mac.
+
+
+\subsubsection*{In one go}
+
+To burn the contents of the directory \texttt{dir.} Note the double
+$-$ for the \texttt{nice} and the final $-$ for the \texttt{cdrecord. }
+
+\begin{itemize}
+\item \texttt{nice $--$18 mkisofs $-$J $-$R $-$r dir | cdrecord $-$v
+speed=2 dev=0,0 $-$}
+
+\begin{lyxlist}{00.00.0000}
+\item [{\texttt{$-$R}}] Rock Ridge extensions
+\item [{\texttt{$-$r}}] global read permissions and root ownership
+\item [{\texttt{$-$J}}] Joliet extensions
+\end{lyxlist}
+\end{itemize}
+
+\subsubsection*{Setting defaults}
+
+The default device and speed can be specified in the file \texttt{/etc/default/cdrecord},
+to shorten the above commands, e.g.
+
+\begin{itemize}
+\item \texttt{nice $--$18 mkisofs $-$J $-$R $-$r dir | cdrecord $-$v
+$-$}
+\item \texttt{cat /etc/default/cdrecord} \\
+\texttt{CDR\_DEVICE=0,0,0 }~\\
+\texttt{CDR\_SPEED=2}
+\end{itemize}
+
+\end{document}

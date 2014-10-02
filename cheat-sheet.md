@@ -45,3 +45,8 @@ Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at 
 - Install and use git as a non-root user? [Read this](http://joemaller.com/908/how-to-install-git-on-a-shared-host/).   
 - Want a private or company Github-like server? [Read this about gitlab](https://about.gitlab.com/gitlab-ce/) or [this about gitorious](http://getgitorious.com/). 
 
+
+![Tree killer](images/04142010inset2.jpg) 
+
+
+

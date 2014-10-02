@@ -39,3 +39,7 @@ Your ~/.ssh/authorized_keys file (on the remote machine) must be readable (at le
 - Your private key file (on the local machine) must be readable and writable only by you: `rw-------`,`i.e. 600.
 - Also, if SELinux is set to enforcing, you may need to run `restorecon -R -v ~/.ssh` (see e.g. Ubuntu bug 965663 and Debian bug report #658675; this is patched in CentOS 6; *actually, no, it's not*).
 
+## Miscellaneous Stuff
+
+- [Kill a tree and print from Github?](https://gitprint.com/)
+- 

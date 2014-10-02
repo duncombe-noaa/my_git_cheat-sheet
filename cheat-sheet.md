@@ -43,5 +43,5 @@ Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at 
 
 - Kill a tree and print from Github? [Read this](https://gitprint.com/)  
 - Install and use git as a non-root user? [Read this](http://joemaller.com/908/how-to-install-git-on-a-shared-host/)
-- Want a private or company Github-like server? [Read this](https://www.digitalocean.com/community/tutorials/how-to-set-up-gitlab-as-your-very-own-private-github-clone). Recommended however is to run a plain git server on your private cloud and have everyone learn to use git and do pull requests and issues via email!
+- Want a private or company Github-like server? [Read this](https://about.gitlab.com/gitlab-ce/). 
 

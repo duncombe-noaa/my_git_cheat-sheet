@@ -1,4 +1,7 @@
 my_git_cheat-sheet
 ==================
 
-Commands I need to be reminded of.
+[Cheat-sheet](cheat-sheet/cheat-sheet.md) and miscellaneous git helps.
+
+[Old cribsheet in LaTeX](cribsheet/cribsheet.pdf)
+

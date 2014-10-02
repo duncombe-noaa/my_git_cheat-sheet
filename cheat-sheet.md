@@ -41,5 +41,6 @@ Your ~/.ssh/authorized_keys file (on the remote machine) must be readable (at le
 
 ## Miscellaneous Stuff
 
-- [Kill a tree and print from Github?](https://gitprint.com/)
-- 
+- [Kill a tree and print from Github?](https://gitprint.com/)  
+
+

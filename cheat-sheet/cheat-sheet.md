@@ -8,6 +8,8 @@ short hand: `git log --oneline <path>`
 
 `git log  --graph <path>`
 
+Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
+
 ## Cheatsheets and Tutorials
 
 - [Atlassian tutorials](https://www.atlassian.com/git/tutorials/)

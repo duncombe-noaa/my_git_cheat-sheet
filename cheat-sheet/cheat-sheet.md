@@ -30,7 +30,11 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 
 ## Python Wisdom
 
-[Do not use --pylab flag for iPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)
+[Do not use --pylab flag for iPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
+When you need to see a notebook without re-executing trust notebooks with     
+``` ipython trust mynotebook.ipynb [other notebooks.ipynb]```   
+to generate a new signature (git repositories?). 
+
 
 ## SSH problems?
 

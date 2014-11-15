@@ -39,7 +39,7 @@ to generate a new signature (git repositories?). [Explanation here](http://ipyth
 
 ## SSH problems?
 
-This list from stackexchange solved a login problem on CdentOS :
+This list from [stackexchange](http://stackexchange.com/) solved a login problem on CentOS :
 - Your home directory `~`, your `~/.ssh` directory and the `~/.ssh/authorized_keys` file on the remote machine must be writable only by you: `rwx------` and `rwxr-xr-x` are fine, but `rwxrwx---` is no good,  even if you are the only user in your group (if you prefer numeric modes: 700 or 755, not 775).
 If `~/.ssh` or `authorized_keys` is a symbolic link, the canonical path (with symbolic links expanded) is checked.
 Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at least 400), but you'll need it to be also writable (600) if you will add any more keys to it.

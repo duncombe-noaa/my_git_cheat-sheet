@@ -18,6 +18,7 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 - [How to escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [Think like a git](http://think-like-a-git.net/)
 - [git ready](http://gitready.com/)
+- [A github workflow to consider](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/#.VGerbPnF98E)
 
 ## Powershell Commands
 

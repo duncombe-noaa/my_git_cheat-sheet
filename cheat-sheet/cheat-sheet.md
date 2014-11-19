@@ -25,10 +25,9 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 
 Closely associated with github is [Markdown](http://daringfireball.net/projects/markdown/syntax). Here are some cheatsheets and helps:
 
-- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
-- [https://help.github.com/articles/github-flavored-markdown/]
-- 
+- [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown-Here-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+- [github-flavored-markdown](https://help.github.com/articles/github-flavored-markdown/)   
 
 ## Powershell Commands
 

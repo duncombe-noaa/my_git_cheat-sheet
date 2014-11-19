@@ -21,6 +21,15 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 - [A github workflow to consider](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/#.VGerbPnF98E)
 - [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 
+## Markdown
+
+Closely associated with github is [Markdown](http://daringfireball.net/projects/markdown/syntax). Here are some cheatsheets and helps:
+
+- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+- [https://help.github.com/articles/github-flavored-markdown/]
+- 
+
 ## Powershell Commands
 
 |Powershell command| Unix equivalent|

@@ -60,6 +60,12 @@ Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at 
 - Your private key file (on the local machine) must be readable and writable only by you: `rw-------`,`i.e. 600.
 - Also, if SELinux is set to enforcing, you may need to run `restorecon -R -v ~/.ssh` (see e.g. Ubuntu bug 965663 and Debian bug report #658675; this is patched in CentOS 6 [*actually, no, it's not*]).
 
+## Virtual Machines
+
+[http://superuser.com/questions/73488/run-a-virtual-machine-from-virtualbox-without-launching-virtualbox?rq=1]
+
+[http://superuser.com/questions/539880/using-virtual-box-is-it-possible-to-set-your-virtual-machine-time-to-be-differen]
+
 ## Miscellaneous Stuff
 
 - Kill a tree and print from Github? [Read this](https://gitprint.com/).  

@@ -40,7 +40,7 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 
 ## Python Wisdom
 
-[Do not use --pylab flag for iPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
+[Do not use --pylab flag for IPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
 When you need to see a notebook without re-executing, trust notebooks with     
 ``` ipython trust mynotebook.ipynb [other notebooks.ipynb]```   
 to generate a new signature (git repositories?). [Explanation here](http://ipython.org/ipython-doc/dev/notebook/notebook.html).  
@@ -48,7 +48,7 @@ to generate a new signature (git repositories?). [Explanation here](http://ipyth
 
 ``` conda list --revisions ```
 
-
+Working with Wakari: be careful that your packages do not update `ipython` or `ipython-notebook`. This may break the Wakari installation.
 
 
 ## SSH problems?

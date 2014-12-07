@@ -1,6 +1,6 @@
 # My GIT Cheat Sheet
 
-## Git commands
+##<a name="git"></a> Git commands
 
 `git log --pretty=oneline --abbrev-commit <path>` 
 
@@ -10,7 +10,7 @@ short hand: `git log --oneline <path>`
 
 Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 
-## Cheatsheets and Tutorials
+### Git Cheatsheets and Tutorials
 
 - [Atlassian tutorials](https://www.atlassian.com/git/tutorials/)
 - [NDP Interactive Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
@@ -21,7 +21,7 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 - [A github workflow to consider](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/#.VGerbPnF98E)
 - [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 
-## Markdown
+##<a name="markdown"></a> Markdown
 
 Closely associated with github is [Markdown](http://daringfireball.net/projects/markdown/syntax). Here are some cheatsheets and helps:
 
@@ -29,7 +29,7 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 - [Markdown-Here-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 - [github-flavored-markdown](https://help.github.com/articles/github-flavored-markdown/)   
 
-## Powershell Commands
+##<a name="powershell"></a> Powershell Commands
 
 |Powershell command| Unix equivalent|
 |---|---|
@@ -38,7 +38,7 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 | `remove-Item -recurse -force ` | ` rm -rf ` |
 
 
-## Python Wisdom<a name="python"></a>
+##<a name="python"></a>Python Wisdom
 
 [Do not use --pylab flag for IPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
 When you need to see a notebook without re-executing, trust notebooks with     
@@ -65,7 +65,7 @@ Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at 
 - Your private key file (on the local machine) must be readable and writable only by you: `rw-------`,`i.e. 600.
 - Also, if SELinux is set to enforcing, you may need to run `restorecon -R -v ~/.ssh` (see e.g. Ubuntu bug 965663 and Debian bug report #658675; this is patched in CentOS 6 [*actually, no, it's not*]).
 
-## Virtual Machines
+##<a name="vms"></a> Virtual Machines
 
 [http://superuser.com/questions/73488/run-a-virtual-machine-from-virtualbox-without-launching-virtualbox?rq=1]
 

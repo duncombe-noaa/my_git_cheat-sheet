@@ -52,8 +52,9 @@ Working with Wakari: be careful that your packages do not update `ipython` or `i
 
 ###Python Resources<a name="python_resources"></a>
 
-[Think Python](http://www.greenteapress.com/thinkpython/html/index.html)
-[Dive into Python](http://www.diveintopython.net/index.html)
+- [Think Python](http://www.greenteapress.com/thinkpython/html/index.html)
+- [Dive into Python](http://www.diveintopython.net/index.html)
+- [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html) 
 
 
 ## SSH problems?

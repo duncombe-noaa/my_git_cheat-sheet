@@ -38,17 +38,22 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 | `remove-Item -recurse -force ` | ` rm -rf ` |
 
 
-## Python Wisdom
+## Python Wisdom<a name="python"></a>
 
 [Do not use --pylab flag for IPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
 When you need to see a notebook without re-executing, trust notebooks with     
 ``` ipython trust mynotebook.ipynb [other notebooks.ipynb]```   
 to generate a new signature (git repositories?). [Explanation here](http://ipython.org/ipython-doc/dev/notebook/notebook.html).  
 
-
 ``` conda list --revisions ```
 
 Working with Wakari: be careful that your packages do not update `ipython` or `ipython-notebook`. This may break the Wakari installation.
+
+
+###Python Resources<a name="python_resources"></a>
+
+[Think Python](http://www.greenteapress.com/thinkpython/html/index.html)
+[Dive into Python](http://www.diveintopython.net/index.html)
 
 
 ## SSH problems?

@@ -8,7 +8,6 @@ my_git_cheat-sheet
 - [Python](cheat-sheet/cheat-sheet.md#python)
 - [Virtual machines](cheat-sheet/cheat-sheet.md#vms)
 
-hubba hubba
 ---
 
 [Old cribsheet in LaTeX/PDF](cribsheet/cribsheet.pdf)

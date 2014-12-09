@@ -56,6 +56,17 @@ Working with Wakari: be careful that your packages do not update `ipython` or `i
 - [Dive into Python](http://www.diveintopython.net/index.html)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html) 
 
+Python for Matlab Users (tutorials and advocacy):
+
+- [Numpy for matlab users](http://wiki.scipy.org/NumPy_for_Matlab_Users)
+- [A python primer for matlab users](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
+- [Advantages of python over matlab](http://phillipmfeldman.org/Python/Advantages_of_Python_Over_Matlab.html) (Some of this the author is reaching!)
+- [10 Reasons](http://www.stat.washington.edu/~hoytak/blog/whypython.html)
+- 
+
+Possibilities:
+- [Pyzo](http://www.pyzo.org/index.html)
+
 
 ## SSH problems?
 

@@ -11,7 +11,7 @@
 |`m` | to markdown | `shift`-`v` | paste cell above  |
 |`r` | to raw | `v` | paste cell below|
 |`1` | to heading 1 | `z` | undo last delete |
-|`2` | to heading 2 | `d` | delete cell (press twice) |
+|`2` | to heading 2 | `d` `d` | delete cell (press twice) |
 |`3` | to heading 3 | `shift`-`m` | merge cell below |
 |`4` | to heading 4 | `s` | save notebook |
 |`5` | to heading 5 | `ctrl`-`s` | undo last delete |

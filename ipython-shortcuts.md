@@ -1,13 +1,13 @@
 # Keyboard shortcuts
 
-### Command Mode (press `esc` to enable)
+#### Command Mode (press `esc` to enable)
 |  |  |  |  |
 |-----------:|:------------|------------:|:----------|
-|`enter`: |edit mode | `ctrl`-`j`: | move cell down|     
-|`shift`-`enter`: | run cell, select below | `a`: | insert cell above |
-|`ctrl`-`enter`: | run cell | `b`: | insert cell below |
-|`alt`-`enter`| run cell, insert below | x | cut cell |
-|`y` | to code| c | copy cell |
+|`enter` |edit mode | `ctrl`-`j` | move cell down|     
+|`shift`-`enter` | run cell, select below | `a` | insert cell above |
+|`ctrl`-`enter` | run cell | `b` | insert cell below |
+|`alt`-`enter`| run cell, insert below | `x` | cut cell |
+|`y` | to code| `c` | copy cell |
 |`m` | to markdown | `shift`-`v` | paste cell above  |
 |`r` | to raw | `v` | paste cell below|
 |`1` | to heading 1 | `z` | undo last delete |
@@ -25,5 +25,18 @@
 
 #### Edit mode (press `enter` to enable)
 
-
+| | | | |
+|--:|:--|--:|:--|
+| `tab` | code completion or indent |`ctrl`-`down` | go to cell end |
+| `shift`-`tab` |tooltip | `ctrl`-`left` | go one word left |
+| `ctrl-`]` |indent |`ctrl`-`right` | go one word right |
+| `ctrl`-`[`|dedent |`ctrl`-`backspace` | delete word before |
+| `ctrl`-`a`|select all |`ctrl`-`delete` | delete word before |
+| `ctrl`-`z`|undo |`esc` | command mode |
+| `shift`-`ctrl`-`z`|redo |`ctrl`-`m` | command mode |
+| `ctrl`-`y`|redo |`shift`-`enter` | run cell, select below |
+| `ctrl`-`home`|go to cell start |`ctrl`-`enter` | run cell |
+| `ctrl`-`up`|go to cell start |`alt`-`enter` | run cell, insert below |
+| `ctrl`-`end`|go to cell end |`ctrl`-`shift`-`-` | split cell |
+| | | `ctrl`-`s` | save notebook |
 

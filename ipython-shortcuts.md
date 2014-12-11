@@ -16,7 +16,7 @@
 |`4` | to heading 4 | `s` | save notebook |
 |`5` | to heading 5 | `ctrl`-`s` | undo last delete |
 |`6` | to heading 6 | `l` | toggle line numbers |
-|`up` | select previous cell | `o` | toggle line numbers |
+|`up` | select previous cell | `o` | toggle output |
 |`down` | select next cell | `shift`-`o` | toggle output scrolling |
 |`k` | select previous cell | `q` | close pager |
 |`j` | select next cell | `h` | keyboard shortcuts |

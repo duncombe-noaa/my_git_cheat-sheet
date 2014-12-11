@@ -1,0 +1,97 @@
+%% A very basic document template: 1 inch margins all round, no packages
+%%
+%% : 1.6 $
+%% : 2013-03-26 05:22:51 $
+%% : newdoc,v 1.6 2013-03-26 05:22:51 duncombe Exp $
+%% 
+\documentclass[letterpaper,12pt,oneside]{article}
+\batchmode
+
+% define the page to have 1 inch margins all round 
+% \setlength{\oddsidemargin}{0pt}
+% \setlength{\textwidth}{6.5in}
+% \setlength{\topmargin}{0in}
+% \setlength{\headsep}{0in}
+% \setlength{\headheight}{0in}
+% \setlength{\textheight}{9in}
+
+
+%%%%%%%%%%%%%%%%%%
+% include packages
+%%%%%%%%%%%%%%%%%%
+\usepackage[letterpaper,left=1.0in,right=1.0in,top=1.0in,bottom=1.0in]{geometry}
+\usepackage{url}
+
+% some potentially useful packs
+% \usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% for the bibliography 
+%%%%%%%%%%%%%%%%%%%%%%
+%% Use one of natbib or apalike (or another)
+% \usepackage[square]{natbib} 
+% \usepackage[square]{apalike} 
+%% set a new line for the references section 
+% \newcommand{\refheading}{Bibliography}
+% \AtBeginDocument{\renewcommand\refname{\large \refheading}}
+%% then define one of 
+% \bibliographystyle{ametsoc}
+% \bibliographystyle{/usr/share/texmf/bibtex/bst/natbib/plainnat.bst}
+% \bibliographystyle{/usr/share/texmf/bibtex/bst/natbib/unsrtnat.bst}
+% \bibliographystyle{unsrtnat}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% beginning of the document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+
+\begin{document}
+
+% \bibliography{./abs,./cmdrrefs}
+\title{Keyboard shortcuts}
+
+#### Command Mode (press `esc` to enable)
+|  |  |  |  |
+|-----------:|:------------|------------:|:----------|
+|`enter` |edit mode | `ctrl`-`j` | move cell down|     
+|`shift`-`enter` | run cell, select below | `a` | insert cell above |
+|`ctrl`-`enter` | run cell | `b` | insert cell below |
+|`alt`-`enter`| run cell, insert below | `x` | cut cell |
+|`y` | to code| `c` | copy cell |
+|`m` | to markdown | `shift`-`v` | paste cell above  |
+|`r` | to raw | `v` | paste cell below|
+|`1` | to heading 1 | `z` | undo last delete |
+|`2` | to heading 2 | `d` `d` | delete cell (press twice) |
+|`3` | to heading 3 | `shift`-`m` | merge cell below |
+|`4` | to heading 4 | `s` | save notebook |
+|`5` | to heading 5 | `ctrl`-`s` | undo last delete |
+|`6` | to heading 6 | `l` | toggle line numbers |
+|`up` | select previous cell | `o` | toggle output |
+|`down` | select next cell | `shift`-`o` | toggle output scrolling |
+|`k` | select previous cell | `q` | close pager |
+|`j` | select next cell | `h` | keyboard shortcuts |
+| `ctrl`-`k` | move cell up| `i` `i` | interrupt kernel (press twice) |
+| | | `0` `0` | restart kernel (press twice) |   
+| | |     |                               |    
+
+#### Edit mode (press `enter` to enable)
+
+| | | | |
+|--:|:--|--:|:--|
+| `tab` | code completion or indent |`ctrl`-`down` | go to cell end |
+| `shift`-`tab` |tooltip | `ctrl`-`left` | go one word left |
+| `ctrl-`]` |indent |`ctrl`-`right` | go one word right |
+| `ctrl`-`[`|dedent |`ctrl`-`backspace` | delete word before |
+| `ctrl`-`a`|select all |`ctrl`-`delete` | delete word before |
+| `ctrl`-`z`|undo |`esc` | command mode |
+| `shift`-`ctrl`-`z`|redo |`ctrl`-`m` | command mode |
+| `ctrl`-`y`|redo |`shift`-`enter` | run cell, select below |
+| `ctrl`-`home`|go to cell start |`ctrl`-`enter` | run cell |
+| `ctrl`-`up`|go to cell start |`alt`-`enter` | run cell, insert below |
+| `ctrl`-`end`|go to cell end |`ctrl`-`shift`-`-` | split cell |
+| | | `ctrl`-`s` | save notebook |
+|  |  |  |  |
+
+
+\end{document}
+

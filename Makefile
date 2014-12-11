@@ -6,10 +6,6 @@
 
 %.dvi: %.tex
 	-latex $*
-	-bibtex $*
-	-latex $*
-	-bibtex $*
-	-latex $*
 	-latex $* 
 	-latex $* 
 

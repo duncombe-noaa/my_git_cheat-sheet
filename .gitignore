@@ -21,4 +21,4 @@
 *.aux
 *.dvi
 *.log
-
+\#*.update_lock

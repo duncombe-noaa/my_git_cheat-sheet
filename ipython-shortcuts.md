@@ -20,8 +20,9 @@
 |`down` | select next cell | `shift`-`o` | toggle output scrolling |
 |`k` | select previous cell | `q` | close pager |
 |`j` | select next cell | `h` | keyboard shortcuts |
-| `ctrl`-`k` | move cell up| `i` | interrupt kernel (press twice) |
-| | | `0` | restart kernel (press twice) |
+| `ctrl`-`k` | move cell up| `i` `i` | interrupt kernel (press twice) |
+| | | `0` `0` | restart kernel (press twice) |   
+| | |     |                               |    
 
 #### Edit mode (press `enter` to enable)
 
@@ -39,4 +40,5 @@
 | `ctrl`-`up`|go to cell start |`alt`-`enter` | run cell, insert below |
 | `ctrl`-`end`|go to cell end |`ctrl`-`shift`-`-` | split cell |
 | | | `ctrl`-`s` | save notebook |
+|  |  |  |  |
 

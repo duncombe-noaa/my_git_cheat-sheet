@@ -21,6 +21,7 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 - [A github workflow to consider](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/#.VGerbPnF98E)
 - [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 - [Git Tips and Tricks](http://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+- [Ryan Hodson's git tutorial - tips and tricks](http://rypress.com/tutorials/git/tips-and-tricks)
 
 ##<a name="markdown"></a> Markdown
 

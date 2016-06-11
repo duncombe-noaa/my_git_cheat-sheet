@@ -2,9 +2,7 @@
 | Shortcut  Key | 	Definition | 	Action |
 |-----|----|----|
 | Ctrl + . |	Advance to next window 	| Use this shortcut to move the cursor to the next chat or compose window, or to the main window.| 
-
-Ctrl + ,
-Mac: ⌘ + , 	Go to previous window 	Use this shortcut to move the cursor to the previous chat or compose window, or to the main window.
+| Ctrl + ,| Go to previous window 	| Use this shortcut to move the cursor to the previous chat or compose window, or to the main window. | 
 Ctrl + Shift + c
 Mac: ⌘ + Shift + c 	Add Cc recipients 	While composing, takes you to the Cc field to add new recipients.
 Ctrl + Shift + b

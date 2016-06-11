@@ -1,5 +1,6 @@
 
 | Shortcut  Key | 	Definition | 	Action |
+|-----|----|----|
 | Ctrl + . |	Advance to next window 	| Use this shortcut to move the cursor to the next chat or compose window, or to the main window.| 
 
 Ctrl + ,

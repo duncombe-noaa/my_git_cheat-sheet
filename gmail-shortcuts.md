@@ -30,7 +30,7 @@
 | a  | Reply all  | Replies to all message recipients. Shift + a allows you to reply to all message recipients in a new window. (Only applicable in 'Conversation View.') |
 | f  | Forward  | Forwards a message. Shift + f allows you to forward a message in a new window. (Only applicable in 'Conversation View.') |
 | Esc  | Escape from input field  | Removes the cursor from your current input field. |
-| Ctrl + s | Save draft  | Saves the current text as a draft when composing a message. Hold the Ctrl/⌘ key while pressing s and make sure your cursor is in one of the text fields -- either the composition pane, or any of the To, CC, BCC, or Subject fields -- when using this shortcut. |
+| Ctrl + s | Save draft  | Saves the current text as a draft when composing a message. Hold the Ctrl key while pressing s and make sure your cursor is in one of the text fields -- either the composition pane, or any of the To, CC, BCC, or Subject fields -- when using this shortcut. |
 | #  | Delete  | Moves the conversation to Trash. |
 | l  | Label  | Opens the Labels menu to label a conversation. |
 | v  | Move to  | Moves the conversation from the inbox to a different label, Spam or Trash. |
@@ -43,14 +43,13 @@
 | z  | Undo  | Undoes your previous action, if possible (works for actions with an 'undo' link). |
 | Shift + n  | Update current conversation  | Updates your current conversation when there are new messages. |
 | q  | Move cursor to chat search  | Moves your cursor directly to the chat search box. |
-| y  | Remove from Current View*  | Automatically removes the message or conversation from your current view. |
-
-    From 'Inbox,' 'y' means Archive
-    From 'Starred,' 'y' means Unstar
-    From 'Trash,' 'y' means Move to inbox
-    From any label, 'y' means Remove the label
-
-* 'y' has no effect if you're in 'Spam,' 'Sent,' or 'All Mail.'
+| y  | Remove from Current View*  | Automatically removes the message or
+conversation from your current view. \
+    From 'Inbox,' 'y' means Archive \
+    From 'Starred,' 'y' means Unstar \
+    From 'Trash,' 'y' means Move to inbox \
+    From any label, 'y' means Remove the label \ 
+* 'y' has no effect if you're in 'Spam,' 'Sent,' or 'All Mail.' |
 . 	Show more actions 	Displays the 'More Actions' drop-down menu.
 , 	Moves cursor to the first button in your Gmail toolbar 	Displays the 'More Actions' drop-down menu.
 Ctrl + Down arrow

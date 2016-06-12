@@ -44,48 +44,49 @@
 | Shift + n  | Update current conversation  | Updates your current conversation when there are new messages. |
 | q  | Move cursor to chat search  | Moves your cursor directly to the chat search box. |
 | y  | Remove from Current View*  | Automatically removes the message or
-conversation from your current view. \
-    From 'Inbox,' 'y' means Archive \
-    From 'Starred,' 'y' means Unstar \
-    From 'Trash,' 'y' means Move to inbox \
-    From any label, 'y' means Remove the label \ 
+conversation from your current view. <br>
+    From 'Inbox,' 'y' means Archive <br>
+    From 'Starred,' 'y' means Unstar <br>
+    From 'Trash,' 'y' means Move to inbox <br>
+    From any label, 'y' means Remove the label <br> 
 * 'y' has no effect if you're in 'Spam,' 'Sent,' or 'All Mail.' |
-. 	Show more actions 	Displays the 'More Actions' drop-down menu.
-, 	Moves cursor to the first button in your Gmail toolbar 	Displays the 'More Actions' drop-down menu.
-Ctrl + Down arrow
-Mac: ⌘ + Down arrow 	Opens options in Chat 	
-
-    Ctrl/⌘ + Down arrow moves from edit field in your chat window to select the 'Video and more' menu
-    Next, press Tab to select the emoticon menu
-    Press Enter to open the selected menu
-
-k 	Move up a contact 	Moves your cursor up in your contact list
-j 	Move down a contact 	Moves your cursor down in your contact list
-o or Enter 	Open 	Opens the contact with the cursor next to it.
-u 	Return to contact list view 	Refreshes your page and returns you to the contact list.
-e 	Remove from Current Group 	Removes selected contacts from the group currently being displayed.
-x 	Select contact 	Checks and selects a contact so that you can change group membership or choose an action from the drop-down menu to apply to the contact.
-Esc 	Escape from input field 	Removes the cursor from the current input
-# 	Delete 	Deletes a contact permanently
-l 	Group membership 	Opens the groups button to group contacts
-z 	Undo 	Reverses your previous action, if possible (works for actions with an 'undo' link)
+| .  | Show more actions 	Displays the 'More Actions' drop-down menu. |
+| ,  | Moves cursor to the first button in your Gmail toolbar 	Displays the 'More Actions' drop-down menu. |
+| Ctrl + Down arrow |
+| Mac: ⌘ + Down arrow  | Opens options in Chat 	 |
+|  |
+|     Ctrl/⌘ + Down arrow moves from edit field in your chat window to select the 'Video and more' menu |
+|     Next, press Tab to select the emoticon menu |
+|     Press Enter to open the selected menu |
+|  |
+| k  | Move up a contact  | Moves your cursor up in your contact list |
+| j  | Move down a contact  | Moves your cursor down in your contact list |
+| o or Enter  | Open  | Opens the contact with the cursor next to it. |
+| u  | Return to contact list view  | Refreshes your page and returns you to the contact list. |
+| e  | Remove from Current Group  | Removes selected contacts from the group currently being displayed. |
+| x  | Select contact  | Checks and selects a contact so that you can change group membership or choose an action from the drop-down menu to apply to the contact. |
+| Esc  | Escape from input field  | Removes the cursor from the current input |
+| #  | Delete  | Deletes a contact permanently |
+| l  | Group membership  | Opens the groups button to group contacts |
+| z  | Undo  | Reverses your previous action, if possible (works for actions with an 'undo' link) |
  
 Combo-keys
 
 Use the following combinations of keys to navigate through Gmail.
-Shortcut Key 	Definition 	Action
-Tab then Enter 	Send message 	After composing your message, use this combination to send it.
-y then o 	Archive and next 	Archives your conversation and moves to the next one.
-g then a 	Go to 'All Mail' 	Takes you to 'All Mail,' the storage site for all mail you've ever sent or received (and have not deleted).
-g then s 	Go to 'Starred' 	Takes you to all conversations you have starred.
-g then c 	Go to 'Contacts' 	Takes you to your Contacts list.
-g then d 	Go to 'Drafts' 	Takes you to all drafts you have saved.
-g then l 	Go to 'Label' 	Takes you to the search box with the "label:" operator filled in for you.
-g then i 	Go to 'Inbox' 	Returns you to the inbox.
-g then t 	Go to 'Sent Mail' 	Takes you to all mail you've sent.
-* then a 	Select all 	Selects all mail.
-* then n 	Select none 	Deselects all mail.
-* then r 	Select read 	Selects all mail you've read.
-* then u 	Select unread 	Selects all unread mail.
-* then s 	Select starred 	Selects all starred mail.
-* then t 	Select unstarred 	Selects all unstarred mail.
+| Shortcut Key  | Definition  | Action |
+|-----|----|----|
+| Tab then Enter  | Send message  | After composing your message, use this combination to send it. |
+| y then o  | Archive and next  | Archives your conversation and moves to the next one. |
+| g then a  | Go to 'All Mail'  | Takes you to 'All Mail,' the storage site for all mail you've ever sent or received (and have not deleted). |
+| g then s  | Go to 'Starred'  | Takes you to all conversations you have starred. |
+| g then c  | Go to 'Contacts'  | Takes you to your Contacts list. |
+| g then d  | Go to 'Drafts'  | Takes you to all drafts you have saved. |
+| g then l  | Go to 'Label'  | Takes you to the search box with the "label:" operator filled in for you. |
+| g then i  | Go to 'Inbox'  | Returns you to the inbox. |
+| g then t  | Go to 'Sent Mail'  | Takes you to all mail you've sent. |
+| * then a  | Select all  | Selects all mail. |
+| * then n  | Select none  | Deselects all mail. |
+| * then r  | Select read  | Selects all mail you've read. |
+| * then u  | Select unread  | Selects all unread mail. |
+| * then s  | Select starred  | Selects all starred mail. |
+| * then t  | Select unstarred  | Selects all unstarred mail. |

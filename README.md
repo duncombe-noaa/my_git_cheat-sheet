@@ -7,6 +7,7 @@ my_git_cheat-sheet
 - [Powershell](cheat-sheet/cheat-sheet.md#powershell)
 - [Python](cheat-sheet/cheat-sheet.md#python)
 - [Virtual machines](cheat-sheet/cheat-sheet.md#vms)
+- [GMail shortcuts](gmail-shortcuts.md)
 
 ---
 

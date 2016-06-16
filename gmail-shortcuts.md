@@ -10,7 +10,7 @@
 
  The following need to be turned on 
  
- | Shortcut  Key | 	Definition | 	Action |
+| Shortcut  Key | 	Definition | 	Action |
 |-----|----|----|
 | c  | Compose  | Allows you to compose a new message. Shift + c allows you to compose a message in a new window. |
 | d  | Compose in a new tab  | Opens a compose window in a new tab. |

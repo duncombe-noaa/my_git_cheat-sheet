@@ -6,6 +6,7 @@
 | Ctrl + Shift + b | Add Bcc recipients | While composing, takes you to the Bcc field to add new blind recipients. |
 | Ctrl + Shift + f | Change "from" address |While composing, takes you to the From field to change your sending address. This shortcut only works if you have configured additional sending addresses. |
 | Shift + Esc | Focus main window | Use this shortcut to move the cursor to the main window.  |
+| Ctrl + Enter  | Send message  | After composing your message, use this combination to send it. |
 
  The following need to be turned on 
 

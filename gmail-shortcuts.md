@@ -49,10 +49,7 @@
 | y  | Remove from Current View*  | Automatically removes the message or conversation from your current view. <br> From 'Inbox,' 'y' means Archive <br> From 'Starred,' 'y' means Unstar <br> From 'Trash,' 'y' means Move to inbox <br> From any label, 'y' means Remove the label <br> * 'y' has no effect if you're in 'Spam,' 'Sent,' or 'All Mail.' |
 | .  | Show more actions  | Displays the 'More Actions' drop-down menu. |
 | ,  | Moves cursor to the first button in your Gmail toolbar  | Displays the 'More Actions' drop-down menu. |
-| Ctrl + Down arrow | Opens options in Chat 	 | |    
-| Ctrl + Down arrow moves from edit field in your chat window to select the 'Video and more' menu |
-|     Next, press Tab to select the emoticon menu |
-|     Press Enter to open the selected menu |
+| Ctrl + Down arrow | Opens options in Chat 	 | Ctrl + Down arrow moves from edit field in your chat window to select the 'Video and more' menu  <br> Next, press Tab to select the emoticon menu <br>    Press Enter to open the selected menu |
 | k  | Move up a contact  | Moves your cursor up in your contact list |
 | j  | Move down a contact  | Moves your cursor down in your contact list |
 | o or Enter  | Open  | Opens the contact with the cursor next to it. |

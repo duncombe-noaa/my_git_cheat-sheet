@@ -1,6 +1,6 @@
 # My GIT Cheat Sheet
 
-##<a name="git"></a> Git commands
+## <a name="git"></a>Git commands
 
 `git log --pretty=oneline --abbrev-commit <path>` 
 
@@ -23,7 +23,7 @@ Fix ANSI escape codes in `git log`: `git config --global core.pager "less -R"`
 - [Git Tips and Tricks](http://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
 - [Ryan Hodson's git tutorial - tips and tricks](http://rypress.com/tutorials/git/tips-and-tricks)
 
-##<a name="markdown"></a> Markdown
+## <a name="markdown"></a>Markdown
 
 Closely associated with github is [Markdown](http://daringfireball.net/projects/markdown/syntax). Here are some cheatsheets and helps:
 
@@ -31,7 +31,7 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 - [Markdown-Here-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 - [github-flavored-markdown](https://help.github.com/articles/github-flavored-markdown/)   
 
-##<a name="powershell"></a> Powershell Commands (Windows)
+## <a name="powershell"></a>Powershell Commands (Windows)
 
 |Powershell command| Unix equivalent|
 |---|---|
@@ -40,7 +40,7 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 | `remove-Item -recurse -force ` | ` rm -rf ` |
 
 
-##<a name="python"></a>Python Wisdom
+## <a name="python"></a>Python Wisdom
 
 [Do not use --pylab flag for IPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
 When you need to see a notebook without re-executing, trust notebooks with     
@@ -52,28 +52,28 @@ to generate a new signature (git repositories?). [Explanation here](http://ipyth
 Working with Wakari: be careful that your packages do not update `ipython` or `ipython-notebook`. This may break the Wakari installation.
 
 
-###Python Resources<a name="python_resources"></a>
+### Python Resources<a name="python_resources"></a>
 
 - [Think Python](http://www.greenteapress.com/thinkpython/html/index.html)
 - [Dive into Python](http://www.diveintopython.net/index.html)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html) 
 - [Working with MySQL](http://zetcode.com/db/mysqlpython/)
 
-###Python for Matlab Users (tutorials and advocacy):
+### Python for Matlab Users (tutorials and advocacy):
 
 - [Numpy for matlab users](http://wiki.scipy.org/NumPy_for_Matlab_Users)
 - [A python primer for matlab users](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
 - [Advantages of python over matlab](http://phillipmfeldman.org/Python/Advantages_of_Python_Over_Matlab.html) (Some of this the author is reaching!)    
 - [10 Reasons](http://www.stat.washington.edu/~hoytak/blog/whypython.html)    
 
-###Possibilities:  
+### Possibilities:  
 
 - [Pyzo](http://www.pyzo.org/index.html)  
 - 
 
 ## Databases  
 
-###MySQL  
+### MySQL  
 - Interact with using Python: http://zetcode.com/db/mysqlpython/
 
 
@@ -86,7 +86,7 @@ Your `~/.ssh/authorized_keys` file (on the remote machine) must be readable (at 
 - Your private key file (on the local machine) must be readable and writable only by you: `rw-------`,`i.e. 600.
 - Also, if SELinux is set to enforcing, you may need to run `restorecon -R -v ~/.ssh` (see e.g. Ubuntu bug 965663 and Debian bug report #658675; this is patched in CentOS 6 [*actually, no, it's not*]).
 
-##<a name="vms"></a> Virtual Machines
+## <a name="vms"></a>Virtual Machines
 
 [http://superuser.com/questions/73488/run-a-virtual-machine-from-virtualbox-without-launching-virtualbox?rq=1]
 

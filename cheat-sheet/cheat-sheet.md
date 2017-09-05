@@ -42,6 +42,18 @@ Closely associated with github is [Markdown](http://daringfireball.net/projects/
 
 ## <a name="python"></a>Python Wisdom
 
+### Getting started
+
+```
+conda create -n environ python=2
+# To activate the environment:
+source activate environ ...
+conda install anaconda  ...
+conda install netcdf4  ...
+source activate environ  ...
+source deactivate.
+```
+
 [Do not use --pylab flag for IPython](http://nbviewer.ipython.org/github/Carreau/posts/blob/master/10-No-PyLab-Thanks.ipynb)   
 When you need to see a notebook without re-executing, trust notebooks with     
 ``` ipython trust mynotebook.ipynb [other notebooks.ipynb]```   
